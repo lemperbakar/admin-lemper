@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Volume Tabung</title>
+<link rel="stylesheet" href="style.css" type="text/css">
+<body>
+<nav class="menu">
+	<ul>
+		<li><a href="HOME.html">KEMBALI</a></li>
+		<li><a href="volumetabung.html">Volume Tabung</a></li>
+		<li><a href="luasjajargenjang.html">Luas Jajargenjang</a></li>
+		<li><a href="volumekerucut.html">Volume Kerucut</a></li>
+		<li><a href="luassegitiga.html">Luas Segitiga</a></li>
+		<li><a href="kelilingluaslingkaran.html">Keliling Luas Segitiga</a></li>
+	</ul>
+</nav>
+</head>
+<center><br></br><br></br><br></br>
+<b><font color="black" size="5">
+<p>Volume Tabung</p>
+<form id="Formulir" name="formulir" method="post" action="">
+                <table width="500" border="0">
+                <tr>
+                <td width="178"><b><font color="black" size="5">Masukan jari</td>
+                <td><input name="jari" type="text" id="jari"></td>
+                </tr>
+                <tr>
+                <td width="178"><b><font color="black" size="5">Masukan tinggi</td>
+                <td><input name="tinggi" type="text" id="tinggi"></td>
+                </tr>
+                <tr>
+                <td><b><font color="black" size="5">Hasil Penghitungan volume</td>
+                <td><input name="volume" type="text" id="volume"></td>
+                </tr>
+</table>
+<p>
+<input name="cari" type="button" id="cari" value="hitung" class="btn"
+onclick="cariluas()"/>
+</p>
+</form>
+<p>&nbsp;</p>
+<script laguage="javascript">
+function cariluas()
+{
+jari=formulir.jari.value;
+jari=formulir.jari.value;
+tinggi=formulir.tinggi.value;
+formulir.volume.value=3.14*jari*jari*tinggi;
+}
+</script>
+</body></html>
