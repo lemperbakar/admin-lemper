@@ -5,7 +5,7 @@ document.getElementById('loginForm').addEventListener('submit', function (event)
     const password = document.getElementById('psw').value;
 
     if (username === 'helloworld' && password === 'haihello') {
-        window.location.href = 'HOME.html';
+        window.location.href = 'home-1.html';
     } else {
         alert('Invalid username or password.');
     }
